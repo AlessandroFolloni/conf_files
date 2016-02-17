@@ -1,0 +1,15 @@
+#Personal style rule for rubocop gem.
+#Need a change in $RUBOCOP_HOME_DIR/conf/default.conf in order to be read
+
+Style/Tab:
+  Enabled: false
+  Description: "Don't show warnigs when tabs are detected"
+
+Style/IndentationWidth:
+  Enabled: false
+  Description: "See enabled.yml//This check want 2 spaces for indentation instead of 4"
+
+Style/EmptyLinesAroundClassBody:
+  Description: "Keeps track of empty lines around class bodies."
+  Enabled: false
+
