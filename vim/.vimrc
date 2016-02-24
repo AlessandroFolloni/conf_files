@@ -6,7 +6,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " List of plug-ins under vundle controll
-
+Plugin 'scrooloose/syntastic' " Need conf
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-rails'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
